@@ -1,6 +1,5 @@
-import React from 'react'
+import styles from "./styles";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
-
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -31,4 +30,4 @@ const App = () => (
   </div>
 );
 
-export default App
+export default App;
