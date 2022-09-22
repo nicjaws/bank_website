@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles';
 import { discount, robot } from '../assets';
+import GetStarted from './GetStarted'
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`} >
@@ -18,10 +19,11 @@ const Hero = () => (
           <h1 className='flex-1 font-poppins font-semibold ss:[72px] text-[72px] text-white ss:leading-[100px] leading-[76px]'>The Next <br className='sm:block hidden'/> {" "}
           <span className='text-gradient'>Generation</span><br className='sm:block hidden'/> {" "}
              Payment Method.</h1>
+             <div className='ss:flex hidden md:mr-4 mr-0'>
+          <GetStarted />
         </div>
-        <div className='ss:flex hidden md:mr-4 mr-0'>
-
         </div>
+        
       </div>
     </section>
   )
